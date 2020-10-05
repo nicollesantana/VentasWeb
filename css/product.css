@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    /* grid-gap: 20px; */
+    grid-template-areas: " box-search box-filter";
+                         
+    }
+  
+  .box-search { grid-area: search;  height: 100px;width: 700px; }
+  .box-filter { grid-area: filter; width: 700px;}
+ 
+.fox-filter{
+    width: 700px;
+    margin-left: 230px; 
+    margin-top: 20px; 
+  
+}
+/* boton agreagr al carrito */
+input[type="submit"] {
+  background: linear-gradient(#ffda63, #ffa200);
+  border: 0;
+  color: rgb(2, 0, 0);
+  opacity: 0.7;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 0;
+  height: 35px;
+  width: 160px;
+  float: right;
+  outline: none;
+
+  /* llevando el boton totalmente a la derecha */
+  /* position: absolute;
+  top:0; 
+  right:0;  */
+}
+
+input[type="submit"]:hover {
+  opacity: 1;
+}
+
+input[type="submit"]:active {
+  transform: scale(0.95s);
+}
+
